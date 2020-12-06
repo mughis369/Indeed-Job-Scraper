@@ -63,4 +63,4 @@ selenium
 random_user_agent
 
 
-*chromedriver should be placed in the directory as indeed.py*
+*chromedriver should be placed in the same directory as indeed.py*
