@@ -57,7 +57,9 @@ switch expects a string value for location
 ***Requirements***
 
 python 3.x
+
 selenium
+
 random_user_agent
 
 
