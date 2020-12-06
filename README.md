@@ -3,7 +3,7 @@ Scrapes indeed job posts using advanced search feature of indeed.com
 
 **Description***
 Indeed.py contains the whole source code for this automation, result-.json contains the scraped results againset the user entered query. This script uses proxies from proxy_list.txt
-When user searches on indeed it returns a web page containing listings of matching jobs but each job post is loaded in an iframe when clicked. To bypass this problem instead of using requests or urllib, I used selenium as creates a new instance of browser hence the page will behave as if in a real browser.
+When user searches on indeed it returns a web page containing listings of matching jobs but each job post is loaded in an iframe when clicked. To bypass this problem instead of using requests or urllib, I used selenium as it creates a new instance of browser hence the page will behave as if in a real browser.
 
 ***Usage***
 Input to indeed.py is passed using command line arguments. It takes input in the form of dictionary item. There are five flags for which values can be set.
