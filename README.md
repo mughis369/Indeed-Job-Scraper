@@ -14,6 +14,7 @@ Input to indeed.py is passed using command line arguments. It takes input in the
 5 *-loc* used to set the location in query
 
 *Example command to invoke script would be something like*
+
 ```$ python3 indeed.py -ttl "Python Developer" -jt all -rad 10 -age any -loc "New York"```
 
 The above command searches for Python Developer jobs of all type within 10 miles radius of New york from any time.
@@ -50,4 +51,14 @@ last = since my last visit
 ```
 
 *-loc*
-this switch expects a string value for location
+switch expects a string value for location
+
+
+***Requirements***
+
+python 3.x
+selenium
+random_user_agent
+
+
+*chromedriver should be placed in the directory as indeed.py*
